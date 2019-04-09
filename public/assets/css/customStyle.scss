@@ -1,0 +1,121 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/eot/IRANSansWeb_Bold.eot');
+  src: url('../fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),
+  url("../fonts/woff2/IRANSansWeb_Bold.woff2") format('woff2'),
+  url("../fonts/woff/IRANSansWeb_Bold.woff") format('woff'),
+  url("../fonts/ttf/IRANSansWeb_Bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/eot/IRANSansWeb_Medium.eot');
+  src: url('../fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),
+  url("../fonts/woff2/IRANSansWeb_Medium.woff2") format('woff2'),
+  url('../fonts/woff/IRANSansWeb_Medium.woff') format('woff'),
+  url('../fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/eot/IRANSansWeb_UltraLight.eot');
+  src: url("../fonts/eot/IRANSansWeb_UltraLight.eot?#iefix") format('embedded-opentype'),
+  url("../fonts/woff2/IRANSansWeb_UltraLight.woff2") format('woff2'),
+  url("../fonts/woff/IRANSansWeb_UltraLight.woff  ") format('woff'),
+  url("../fonts/ttf/IRANSansWeb_UltraLight.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/eot/IRANSansWeb.eot");
+  src: url("../fonts/eot/IRANSansWeb.eot?#iefix") format('embedded-opentype'),
+  url("../fonts/woff2/IRANSansWeb.woff2") format('woff2'),
+  url("../fonts/woff/IRANSansWeb.woff") format('woff'),
+  url("../fonts/ttf/IRANSansWeb.ttf") format('truetype');
+}
+
+*, body {
+  font-family: IRANSans;
+}
+
+//Menu Section
+#menu-parent-top {
+  padding: 0px;
+
+  .navbar-top-item {
+    .nav-item .nav-link {
+      color: rgba(148, 163, 163, 0.7);
+    }
+  }
+
+  .badge-shop-parent {
+    background-color: #fff;
+    border: 1px solid #d5d1d1;
+    color: #757070;
+    font-size: 16px;
+    border-radius: 50px;
+    line-height: 35px;
+    margin-left: 10px;
+    padding: 0 10px;
+  }
+
+  .send-recipe {
+    background: #000000;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+  }
+}
+
+//Header Section
+#header {
+
+}
+
+//Food Section
+.foo-item {
+  border: 4px dashed #ececec;
+
+  .item {
+    padding: 45px 0px;
+    cursor: pointer;
+    transition: all 0.8s;
+
+    &:hover {
+      .food-icon {
+        color: #fff !important;
+      }
+
+      .food-title {
+        color: #fff;
+      }
+
+      .foo-item {
+        border: unset !important;
+      }
+
+      background: #c29d51;
+      color: #fff;
+    }
+  }
+
+  .food-icon {
+    color: #c0994a;
+    font-size: 40px;
+  }
+
+  .food-title {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 800;
+    color: #686868;
+  }
+}
