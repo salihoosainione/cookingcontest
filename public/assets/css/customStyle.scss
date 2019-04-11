@@ -46,6 +46,22 @@
   font-family: IRANSans;
 }
 
+//custom variable section
+$gold: #bf984a;
+$green: #dfe9db;
+//custom style section
+.custom-btn {
+  -webkit-border-radius: 50px !important;
+  -moz-border-radius: 50px !important;
+  border-radius: 50px !important;
+  background: #000000 !important;
+  padding: 10px 20px !important;
+}
+
+.custom-title-gold-global {
+  color: $gold;
+}
+
 //Menu Section
 #menu-parent-top {
   padding: 0px;
@@ -119,3 +135,175 @@
     color: #686868;
   }
 }
+
+//Food Preview Section
+.food-detail-wrapper {
+  .card-food-item {
+    border-color: #dfe9db;
+    position: relative;
+
+    &::after {
+      content: " ";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 10px 20px 10px 0;
+      border-color: transparent #fff transparent transparent;
+      position: absolute;
+      left: -20px;
+      top: 47px;
+    }
+
+    &:before {
+      content: " ";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 10px 20px 10px 0;
+      border-color: transparent #dfe9db transparent transparent;
+      position: absolute;
+      left: -20px;
+      top: 47px;
+    }
+  }
+
+  .list-group-parent {
+    .list-group-item {
+      border: none;
+      position: relative;
+
+      &::before {
+        content: " ";
+        height: 6px;
+        width: 6px;
+        background-color: #c0994a;
+        border-radius: 50%;
+        display: inline-block;
+        left: 0;
+      }
+    }
+  }
+
+
+}
+
+.description-food-wrapper {
+  .description-food {
+    line-height: 40px !important;
+  }
+}
+
+//Recipes section
+.header-top-recipes {
+  .slogan-food {
+    color: $gold;
+  }
+}
+
+.outer-column {
+  position: relative;
+  cursor: pointer;
+
+  &:hover {
+    .hover-preview {
+      display: block;
+      background-color: #c29c50;
+      width: 100%;
+      height: 10px;
+    }
+  }
+
+  .hover-preview {
+    display: none;
+  }
+}
+
+.recipe-inner-item-wrapper {
+  padding: 10px;
+
+  .more-recipe {
+    border-bottom: 2px solid #ddd;
+
+    .more-recipe-title {
+      color: #808080;
+      font-size: 15px;
+    }
+  }
+}
+
+//Preview Video Section
+.text-wrapper {
+  .detail {
+    font-size: 15px;
+    line-height: 30px;
+    margin: 15px 0;
+  }
+}
+
+.detail-day-wrapper {
+  .clock-icon {
+    font-size: 35px;
+  }
+
+  .day-information-parent {
+    li {
+      line-height: 30px;
+    }
+
+    .day {
+      color: #979797;
+      font-size: 12px;
+    }
+
+    .time {
+      color: $gold;
+      font-size: 12px;
+      margin-right: 20px;
+    }
+  }
+}
+
+//Delicious Section
+.category-food {
+  cursor: pointer;
+
+  .category-parent-item {
+    li {
+      margin-left: 35px;
+      border-left: 2px dotted $green;
+      padding-left: 30px;
+      -webkit-transition: all .8s;
+      -moz-transition: all .8s;
+      -ms-transition: all .8s;
+      -o-transition: all .8s;
+      transition: all .8s;
+
+      &:last-child {
+        border-left: none;
+      }
+
+      &:hover {
+        background-color: #c0994a;
+        color: #fff;
+
+        .category-foo-icon, .category-food-title {
+          color: #fff;
+        }
+
+      }
+
+      .category-foo-icon {
+        font-size: 40px;
+        color: $gold;
+      }
+
+      .category-food-title {
+        margin-top: 10px;
+        display: block;
+        text-align: center;
+        color: #333;
+      }
+    }
+  }
+}
+
