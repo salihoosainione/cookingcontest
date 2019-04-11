@@ -41,20 +41,10 @@
                     <video-player class="video-player-box"
                                   ref="videoPlayer"
                                   :options="playerOptions"
-                                  :playsinline="true"
+                                  playsinline="true"
                                   customEventName="customstatechangedeventname"
 
-                                  @play="onPlayerPlay($event)"
-                                  @pause="onPlayerPause($event)"
-                                  @ended="onPlayerEnded($event)"
-                                  @waiting="onPlayerWaiting($event)"
-                                  @playing="onPlayerPlaying($event)"
-                                  @loadeddata="onPlayerLoadeddata($event)"
-                                  @timeupdate="onPlayerTimeupdate($event)"
-                                  @canplay="onPlayerCanplay($event)"
-                                  @canplaythrough="onPlayerCanplaythrough($event)"
-                                  @statechanged="playerStateChanged($event)"
-                                  @ready="playerReadied">
+                                  >
                     </video-player>
                 </b-col>
             </b-row>

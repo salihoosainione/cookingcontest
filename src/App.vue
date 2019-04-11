@@ -19,6 +19,7 @@
     import foodPreviewVideo from './components/food-preview-video-component';
     import delicious from './components/delicious-component';
 
+
     export default {
         name: 'app',
         components: {
@@ -28,7 +29,8 @@
             foodPreview,
             recipes,
             foodPreviewVideo,
-            delicious
+            delicious,
+
         }
     }
 </script>

@@ -46,6 +46,10 @@
   font-family: IRANSans;
 }
 
+body {
+  height: 10000px;
+}
+
 //custom variable section
 $gold: #bf984a;
 $green: #dfe9db;
@@ -56,6 +60,16 @@ $green: #dfe9db;
   border-radius: 50px !important;
   background: #000000 !important;
   padding: 10px 20px !important;
+  color: #fff !important;
+  cursor: pointer !important;
+
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+
+.custom-btn-selected-detail-food {
+  background: #c0994a !important;
 }
 
 .custom-title-gold-global {
@@ -264,46 +278,117 @@ $green: #dfe9db;
 }
 
 //Delicious Section
-.category-food {
-  cursor: pointer;
+.parent-item-swiper {
+  position: relative;
+  &:hover {
+    background: #c0994a;
+    border-left: none;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
+    transition: all .8s;
+    &:after {
+      content: " ";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 20px 10px 0 10px;
+      border-color: #46c06c transparent transparent transparent;
+      position: absolute;
+      top: 40px;
+      bottom: 0;
+    }
+    .food-icon, .food-title {
+      color: #fff !important;
+    }
 
-  .category-parent-item {
-    li {
-      margin-left: 35px;
-      border-left: 2px dotted $green;
-      padding-left: 30px;
-      -webkit-transition: all .8s;
-      -moz-transition: all .8s;
-      -ms-transition: all .8s;
-      -o-transition: all .8s;
-      transition: all .8s;
+  }
 
-      &:last-child {
-        border-left: none;
-      }
+  .item-slider-wrapper {
+    cursor: pointer;
+    position: relative;
 
-      &:hover {
-        background-color: #c0994a;
-        color: #fff;
+    /*   &:hover {
+         &:after {
+           content: " ";
+           width: 0;
+           height: 0;
+           border-style: solid;
+           border-width: 20px 10px 0 10px;
+           border-color: #007bff transparent transparent transparent;
+           position: absolute;
+           top: 40px;
+           bottom: 0;
+         }
+       }*/
 
-        .category-foo-icon, .category-food-title {
-          color: #fff;
-        }
+    .food-icon {
+      color: #c0994a;
+      font-size: 40px;
+      margin-bottom: 14px;
+    }
 
-      }
-
-      .category-foo-icon {
-        font-size: 40px;
-        color: $gold;
-      }
-
-      .category-food-title {
-        margin-top: 10px;
-        display: block;
-        text-align: center;
-        color: #333;
-      }
+    .food-title {
+      color: #333333;
     }
   }
 }
+
+//Selected Food
+.parent-all-item {
+  padding: 0 70px !important;
+
+  .food-detail-item {
+    margin-top: 50px;
+
+    .food-title {
+      color: #333;
+      font-size: 25px;
+      font-weight: 500;
+    }
+
+    .food-slogan {
+      color: #333;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .powered-detail {
+      .food-recipes-powered {
+        color: #666666;
+        font-weight: 800;
+      }
+
+      .recipes-name {
+        color: #a3a3a3;
+        margin-right: 6px;
+      }
+    }
+
+    .vue-star-rating {
+      display: flex;
+      justify-content: center;
+    }
+
+    .ingredients-parent-item {
+      li {
+        position: relative;
+        line-height: 40px;
+
+        &:before {
+          content: "\2713";
+          width: 5px;
+          height: 2px;
+          color: #32ca2f;
+          position: absolute;
+          right: 0;
+        }
+      }
+    }
+
+  }
+}
+
+
 
