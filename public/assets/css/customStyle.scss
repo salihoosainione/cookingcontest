@@ -53,6 +53,7 @@ body {
 //custom variable section
 $gold: #bf984a;
 $green: #dfe9db;
+$gray: #333333;
 //custom style section
 .custom-btn {
   -webkit-border-radius: 50px !important;
@@ -280,6 +281,7 @@ $green: #dfe9db;
 //Delicious Section
 .parent-item-swiper {
   position: relative;
+
   &:hover {
     background: #c0994a;
     border-left: none;
@@ -288,6 +290,7 @@ $green: #dfe9db;
     -ms-transition: all .8s;
     -o-transition: all .8s;
     transition: all .8s;
+
     &:after {
       content: " ";
       width: 0;
@@ -299,6 +302,7 @@ $green: #dfe9db;
       top: 40px;
       bottom: 0;
     }
+
     .food-icon, .food-title {
       color: #fff !important;
     }
@@ -390,5 +394,20 @@ $green: #dfe9db;
   }
 }
 
+//Food-Blog
+.card-body {
+  padding: 0 !important;
 
+  .detail-blog-wrapper {
+    .title {
+      color: $gray;
+      font-weight: 900;
+      font-size: 18px;
+    }
+
+    .creator {
+      color: $gold;
+    }
+  }
+}
 

@@ -52,6 +52,7 @@
                 </swiper>
             </div>
             <food-selected></food-selected>
+            <food-blog></food-blog>
         </b-container>
     </b-container>
 </template>
@@ -60,6 +61,7 @@
     import 'swiper/dist/css/swiper.css';
     import {swiper, swiperSlide} from 'vue-awesome-swiper'
     import foodSelected from './selected-food-component';
+    import foodBlog from './food-blog-component';
 
     export default {
         name: "delicious-component",
@@ -96,7 +98,8 @@
         components: {
             swiper,
             swiperSlide,
-            foodSelected
+            foodSelected,
+            foodBlog
         },
     }
 </script>
