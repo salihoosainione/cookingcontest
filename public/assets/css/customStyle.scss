@@ -55,6 +55,7 @@ $gold: #bf984a;
 $green: #dfe9db;
 $gray: #333333;
 $gray_Pale: #8c8c8c;
+$footer: #0d0d0d;
 //custom style section
 .custom-btn {
   -webkit-border-radius: 50px !important;
@@ -577,6 +578,87 @@ $gray_Pale: #8c8c8c;
             padding-right: 30px;
           }
         }
+      }
+    }
+  }
+}
+
+//Footer
+#parent-item-footer {
+  background: $footer;
+
+  .row-footer-top {
+    padding: 25px 0;
+  }
+
+  //about
+  .about-wrapper {
+    .about-title {
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .about-description {
+      color: $gray_Pale;
+      font-size: 15px;
+      line-height: 30px;
+    }
+
+    .communication-path-wrapper {
+
+    }
+  }
+
+  //menu
+  .menu-wrapper {
+    .menu-title {
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .parent-menu {
+      .item-menu {
+        position: relative;
+        line-height: 30px;
+
+        &:after {
+          content: " ";
+          height: 10px;
+          width: 10px;
+          background-color: #424242;
+          border-radius: 50%;
+          display: inline-block;
+          right: -19px;
+          top: 9px;
+          position: absolute;
+        }
+
+        .title-menu {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  //location
+  .location-wrapper {
+    .location-title {
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .inner-location {
+      .location-icon {
+        color: $gold;
+        font-size: 25px;
+        margin-left: 10px;
+      }
+
+      .address {
+        color: #fff;
       }
     }
   }

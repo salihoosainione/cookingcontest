@@ -9,6 +9,7 @@
         <delicious></delicious>
         <top-chef></top-chef>
         <recipes-program></recipes-program>
+        <main-footer></main-footer>
     </div>
 </template>
 
@@ -22,6 +23,7 @@
     import delicious from './components/delicious-component';
     import topChef from './components/top-chefs-component';
     import recipesProgram from './components/recipes-program-component';
+    import mainFooter from './components/main-footer-component';
 
     export default {
         name: 'app',
@@ -34,7 +36,8 @@
             foodPreviewVideo,
             delicious,
             topChef,
-            recipesProgram
+            recipesProgram,
+            mainFooter
         }
     }
 </script>
