@@ -54,6 +54,7 @@ body {
 $gold: #bf984a;
 $green: #dfe9db;
 $gray: #333333;
+$gray_Pale: #8c8c8c;
 //custom style section
 .custom-btn {
   -webkit-border-radius: 50px !important;
@@ -508,6 +509,74 @@ $gray: #333333;
       .social-icon {
         color: $gray;
         vertical-align: middle;
+      }
+    }
+  }
+}
+
+//Recipes-Program
+.recipes-program-top-wrapper {
+  padding: 0 40px;
+  //header
+  .header-recipes {
+    .article-title {
+      color: $gold;
+      font-size: 12px;
+    }
+
+    .recipes-title {
+      color: $gray;
+      font-weight: 800;
+      font-size: 25px;
+    }
+  }
+
+  //item
+  .item-recipes-wrapper {
+    .item-single-recipe {
+      position: relative;
+
+      .item-detail-wrapper {
+        position: absolute;
+        width: 100%;
+        padding: 0 10px;
+        bottom: -260px;
+
+        .parent-item-wrapper {
+          background: #b8b6b6;
+
+          .item-wrapper {
+            padding: 0 10px;
+
+            .inner-item {
+              .date-item {
+                color: $gold;
+                font-size: 12px;
+              }
+
+              .title-item {
+                color: $gray;
+                font-size: 14px;
+                font-weight: 600;
+              }
+
+              .description-item {
+                color: $gray_Pale;
+                font-size: 13px;
+                line-height: 30px
+              }
+            }
+          }
+        }
+
+        .comment-like-area-wrapper {
+          background-color: $gold;
+          color: #fff;
+
+          .comment-like-area-list-parent {
+            padding-right: 30px;
+          }
+        }
       }
     }
   }

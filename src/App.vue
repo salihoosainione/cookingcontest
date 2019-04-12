@@ -8,6 +8,7 @@
         <food-preview-video></food-preview-video>
         <delicious></delicious>
         <top-chef></top-chef>
+        <recipes-program></recipes-program>
     </div>
 </template>
 
@@ -20,6 +21,7 @@
     import foodPreviewVideo from './components/food-preview-video-component';
     import delicious from './components/delicious-component';
     import topChef from './components/top-chefs-component';
+    import recipesProgram from './components/recipes-program-component';
 
     export default {
         name: 'app',
@@ -31,7 +33,8 @@
             recipes,
             foodPreviewVideo,
             delicious,
-            topChef
+            topChef,
+            recipesProgram
         }
     }
 </script>
