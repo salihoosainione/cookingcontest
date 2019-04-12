@@ -8,6 +8,7 @@
             <div class="category-food mt-5">
                 <swiper :options="swiperOption" class="text-center">
                     <swiper-slide class="parent-item-swiper">
+                        <span class="custom-caret"></span>
                         <div class="item-slider-wrapper text-center">
                             <span class="d-block "><i class="fas fa-drumstick-bite food-icon"></i></span>
                             <span class="d-block food-title">مرغ</span>

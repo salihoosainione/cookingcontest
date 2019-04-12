@@ -291,6 +291,19 @@ $gray: #333333;
     -o-transition: all .8s;
     transition: all .8s;
 
+    .custom-caret {
+      display: block;
+    }
+
+    .food-icon, .food-title {
+      color: #fff !important;
+    }
+
+  }
+
+  .custom-caret {
+    display: none;
+
     &:after {
       content: " ";
       width: 0;
@@ -302,11 +315,6 @@ $gray: #333333;
       top: 40px;
       bottom: 0;
     }
-
-    .food-icon, .food-title {
-      color: #fff !important;
-    }
-
   }
 
   .item-slider-wrapper {
@@ -411,3 +419,96 @@ $gray: #333333;
   }
 }
 
+//Top-chefs
+.top-chef-wrapper {
+  background: #f9f9f9;
+}
+
+.header-top-chef-wrapper {
+  .title-introduction-section {
+    color: $gold;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .title-instructions {
+    color: $gray;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+.chef-item-wrapper {
+  margin: 12px;
+
+  .instructions-count {
+    color: $gold;
+  }
+
+  .title-chef {
+    color: $gray;
+  }
+
+  .get-more-parent {
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
+    transition: all .8s;
+
+    &:hover {
+      background-color: $gold;
+      padding: 4px 12px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      cursor: pointer;
+
+      .get-more {
+        color: #fff;
+      }
+    }
+
+    .get-more {
+      color: $gold;
+    }
+  }
+}
+
+.communication-parent {
+  display: flex;
+  justify-content: center;
+
+  .phone-icon {
+    color: $gold;
+  }
+
+  .phone-title {
+    color: $gold;
+    font-weight: 800;
+  }
+
+  .phone-number {
+    color: $gray;
+    font-weight: 800;
+  }
+}
+
+.social-icon-parent {
+  display: flex;
+  justify-content: center;
+
+  .social-icon-list {
+    .list-item {
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      padding: 10px 18px;
+      margin-left: 10px;
+
+      .social-icon {
+        color: $gray;
+        vertical-align: middle;
+      }
+    }
+  }
+}
