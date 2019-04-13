@@ -7,6 +7,9 @@
                         <div class="item">
                             <i class="fas fa-pizza-slice food-icon d-block"></i>
                             <span class="food-title d-block">پنیر</span>
+                            <span class="get-more-category">
+                            <i class="fas fa-long-arrow-alt-right icon-more"></i>
+                        </span>
                         </div>
                     </div>
                 </b-col>
@@ -15,6 +18,9 @@
                         <div class="item">
                             <i class="fab fa-pagelines food-icon d-block"></i>
                             <span class="food-title d-block">سبزیجات</span>
+                            <span class="get-more-category">
+                            <i class="fas fa-long-arrow-alt-right icon-more"></i>
+                        </span>
                         </div>
                     </div>
                 </b-col>
@@ -23,6 +29,9 @@
                         <div class="item">
                             <i class="fas fa-birthday-cake food-icon d-block"></i>
                             <span class="food-title d-block">پنیر</span>
+                            <span class="get-more-category">
+                            <i class="fas fa-long-arrow-alt-right icon-more"></i>
+                        </span>
                         </div>
                     </div>
                 </b-col>
@@ -31,6 +40,9 @@
                         <div class="item">
                             <i class="fas fa-coffee food-icon d-block"></i>
                             <span class="food-title d-block">نوشیدنی</span>
+                            <span class="get-more-category">
+                            <i class="fas fa-long-arrow-alt-right icon-more"></i>
+                        </span>
                         </div>
                     </div>
                 </b-col>
@@ -39,6 +51,9 @@
                         <div class="item">
                             <i class="fas fa-coffee food-icon d-block"></i>
                             <span class="food-title d-block">نوشیدنی</span>
+                            <span class="get-more-category">
+                            <i class="fas fa-long-arrow-alt-right icon-more"></i>
+                        </span>
                         </div>
                     </div>
                 </b-col>
@@ -47,6 +62,9 @@
                         <div class="item">
                             <i class="fas fa-coffee food-icon d-block"></i>
                             <span class="food-title d-block">نوشیدنی</span>
+                            <span class="get-more-category">
+                            <i class="fas fa-long-arrow-alt-right icon-more"></i>
+                        </span>
                         </div>
                     </div>
                 </b-col>

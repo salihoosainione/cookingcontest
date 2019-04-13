@@ -7,7 +7,7 @@ import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
 import VueVideoPlayer from 'vue-video-player';
 import 'video.js/dist/video-js.css';
-
+import router from './router/index';
 import App from './App.vue';
 
 Vue.config.productionTip = false;
@@ -19,4 +19,5 @@ Vue.use(VueVideoPlayer, /* {
 } */)
 new Vue({
     render: h => h(App),
+    router
 }).$mount('#app')

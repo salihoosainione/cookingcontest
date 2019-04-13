@@ -14,8 +14,8 @@
                             شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد
                         </p>
                         <div class="communication-path-wrapper">
-                            <span>راه های ارتباطی</span>
-                            <div class="social-icon-top-footer">
+                            <span class="text-white">راه های ارتباطی</span>
+                            <div class="social-icon-top-footer mt-2">
                                 <ul class="social-icon-list list-unstyled list-inline pr-0">
                                     <li class="list-inline-item list-item">
                                         <a href="">
@@ -84,10 +84,29 @@
                 </b-col>
             </b-row>
             <!--item bottom-->
-            <b-row class="row-footer-bottom address text-center">
-                تمامی حقوق این سایت متعلق به شرکت زانیس می باشد
+            <b-row class="row-footer-bottom text-center">
+                <div class="footer-bottom-parent text-center">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item mr-4"><a href="#" class="text-white text-decoration-none">خانه</a>
+                        </li>
+                        <li class="list-inline-item mr-4"><a href="#" class="text-white text-decoration-none">صفحات</a>
+                        </li>
+                        <li class="list-inline-item mr-4"><a href="#" class="text-white text-decoration-none">نمونه
+                            کار</a></li>
+                        <li class="list-inline-item mr-4"><a href="#" class="text-white text-decoration-none">بلاگ</a>
+                        </li>
+                        <li class="list-inline-item mr-4"><a href="#"
+                                                             class="text-white text-decoration-none">فروشگاه</a></li>
+                        <li class="list-inline-item mr-4"><a href="#" class="text-white text-decoration-none">تماس با
+                            ما</a></li>
+                    </ul>
+                </div>
+                <p class="w-100 text-white copyright">
+                    تمامی حقوق این وب سایت متعلق به
+                    <span class="company-name">زانیس</span>
+                    می باشد.
+                </p>
             </b-row>
-
         </b-container>
     </b-container>
 </template>

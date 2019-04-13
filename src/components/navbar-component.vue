@@ -1,6 +1,6 @@
 <template>
     <b-container fluid id="menu-parent-top">
-        <b-navbar toggleable="lg" type="dark">
+        <b-navbar toggleable="lg" type="dark" class="nav-parent navbar-custom">
             <b-container>
                 <b-navbar-brand href="#">NavBar</b-navbar-brand>
                 <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

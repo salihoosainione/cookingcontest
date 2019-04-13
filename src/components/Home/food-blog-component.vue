@@ -3,7 +3,7 @@
         <b-row>
             <b-col md="3">
                 <b-card>
-                    <img src="../../public/assets/img/blog-fdod/test.jpg" width="100%" alt="">
+                    <img src="../../../public/assets/img/blog-fdod/test.jpg" width="100%" alt="">
                     <div class="detail-blog-wrapper m-3 text-center">
                         <p class="title">غذای مرغ بریان با ته چین</p>
                         <span class="creator">سیدعلی حسینی</span>
@@ -12,7 +12,7 @@
             </b-col>
             <b-col md="3">
                 <b-card>
-                    <img src="../../public/assets/img/blog-fdod/test.jpg" width="100%" alt="">
+                    <img src="../../../public/assets/img/blog-fdod/test.jpg" width="100%" alt="">
                     <div class="detail-blog-wrapper m-3 text-center">
                         <p class="title">غذای مرغ بریان با ته چین</p>
                         <span class="creator">سیدعلی حسینی</span>
@@ -21,7 +21,7 @@
             </b-col>
             <b-col md="3">
                 <b-card>
-                    <img src="../../public/assets/img/blog-fdod/test.jpg" width="100%" alt="">
+                    <img src="../../../public/assets/img/blog-fdod/test.jpg" width="100%" alt="">
                     <div class="detail-blog-wrapper m-3 text-center">
                         <p class="title">غذای مرغ بریان با ته چین</p>
                         <span class="creator">سیدعلی حسینی</span>
@@ -30,7 +30,7 @@
             </b-col>
             <b-col md="3">
                 <b-card>
-                    <img src="../../public/assets/img/blog-fdod/test.jpg" width="100%" alt="">
+                    <img src="../../../public/assets/img/blog-fdod/test.jpg" width="100%" alt="">
                     <div class="detail-blog-wrapper m-3 text-center">
                         <p class="title">غذای مرغ بریان با ته چین</p>
                         <span class="creator">سیدعلی حسینی</span>

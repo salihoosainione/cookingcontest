@@ -1,5 +1,5 @@
 <template>
-    <b-container fluid class="mt-5" style="height:150vh">
+    <b-container fluid class="mt-5" style="height:75vh">
         <b-container>
             <div class="recipes-program-top-wrapper">
                 <!--header-->
@@ -11,9 +11,10 @@
                 <div class="item-recipes-wrapper">
                     <b-row>
                         <b-col md="4">
-                            <div class="item-single-recipe">
-                                <img src="../../public/assets/img/blog-fdod/test.jpg" class="img-fluid" alt="">
+                            <div class="item-single-recipe text-center">
+                                <img src="../../../public/assets/img/blog-fdod/test.jpg" class="img-fluid" alt="">
                                 <div class="item-detail-wrapper">
+                                    <button class="get-more-recipes">ادامه</button>
                                     <b-card class="parent-item-wrapper">
                                         <div class="item-wrapper">
                                             <div class="inner-item text-center">
@@ -48,9 +49,10 @@
                             </div>
                         </b-col>
                         <b-col md="4">
-                            <div class="item-single-recipe">
-                                <img src="../../public/assets/img/blog-fdod/test.jpg" class="img-fluid" alt="">
+                            <div class="item-single-recipe text-center">
+                                <img src="../../../public/assets/img/blog-fdod/test.jpg" class="img-fluid" alt="">
                                 <div class="item-detail-wrapper">
+                                    <button class="get-more-recipes">ادامه</button>
                                     <b-card class="parent-item-wrapper">
                                         <div class="item-wrapper">
                                             <div class="inner-item text-center">
@@ -85,9 +87,10 @@
                             </div>
                         </b-col>
                         <b-col md="4">
-                            <div class="item-single-recipe">
-                                <img src="../../public/assets/img/blog-fdod/test.jpg" class="img-fluid" alt="">
+                            <div class="item-single-recipe text-center">
+                                <img src="../../../public/assets/img/blog-fdod/test.jpg" class="img-fluid" alt="">
                                 <div class="item-detail-wrapper">
+                                    <button class="get-more-recipes">ادامه</button>
                                     <b-card class="parent-item-wrapper">
                                         <div class="item-wrapper">
                                             <div class="inner-item text-center">

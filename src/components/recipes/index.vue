@@ -1,10 +1,12 @@
 <template>
-
+    <div class="">
+        product page
+    </div>
 </template>
 
 <script>
     export default {
-        name: "footer-component"
+        name: "index"
     }
 </script>
 
