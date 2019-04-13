@@ -1,6 +1,5 @@
 <template>
     <div>
-
         <food-category></food-category>
         <food-Preview></food-Preview>
         <recipes></recipes>
@@ -23,7 +22,6 @@
     export default {
         name: "index",
         components: {
-
             foodCategory,
             foodPreview,
             recipes,

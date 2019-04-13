@@ -47,11 +47,7 @@
 }
 
 //custom variable section
-$gold: #bf984a;
-$green: #dfe9db;
-$gray: #333333;
-$gray_Pale: #8c8c8c;
-$footer: #0d0d0d;
+@import "variable";
 //custom style section
 .custom-btn {
   -webkit-border-radius: 50px !important;
