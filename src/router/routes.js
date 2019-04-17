@@ -1,6 +1,8 @@
 import MainLayout from '../components/layout-component';
 import HomePage from '../components/Home/index';
 import RecipesPage from '../components/recipes/index';
+import OurHistoryPage from '../components/History/index';
+import RecipesList from '../components/RecipesList/index';
 
 export const routes = [
     {
@@ -15,6 +17,16 @@ export const routes = [
                 name: 'Recipes',
                 path: "/recipes",
                 component: RecipesPage
+            },
+            {
+                name: 'History',
+                path: "/our-history",
+                component: RecipesList
+            },
+            {
+                name: 'OurList',
+                path: "/our-list",
+                component: OurHistoryPage
             }
         ]
     }
