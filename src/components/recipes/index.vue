@@ -1,6 +1,7 @@
 <template>
     <b-container fluid class="mt-5">
         <b-container>
+            <!--            card data-->
             <div class="detail-card-wrapper">
                 <b-card>
                     <b-container>
@@ -69,6 +70,129 @@
                             <b-col md="5" offset-md="1">5</b-col>
                         </b-row>
                     </b-container>
+                </b-card>
+            </div>
+            <!--            recipes description-->
+            <div class="recipes-description">
+                <b-container>
+                    <p class="text-justify description">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها
+                        و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                        و
+                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال
+                        و
+                        آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان
+                        رایانه
+                        ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت
+                        که
+                        تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل
+                        حروفچینی
+                        دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                    </p>
+                </b-container>
+            </div>
+            <!--            ingredients section-->
+            <div class="ingredients-details">
+                <b-row>
+                    <b-col md="6">666</b-col>
+                    <b-col md="6">
+                        <div class="ingredients-item-wrapper">
+                            <p class="title">عناصر</p>
+                            <ul class="list-unstyled p-0 ingredients-item">
+                                <li>روغن</li>
+                                <li>شکر</li>
+                                <li>زردچوبه</li>
+                                <li>دارچین</li>
+                                <li>هل</li>
+                                <li>گلاب</li>
+                                <li>آرد</li>
+                                <li>زعفران</li>
+                                <li>همزن</li>
+                            </ul>
+                        </div>
+                    </b-col>
+                </b-row>
+                <b-row>
+                    <div class="instructions-item-wrapper">
+                        <p class="instructions-title text-center">دستورالعمل ها</p>
+                        <ul class="list-unstyled instructions-item">
+                            <li>
+                                وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای
+                            </li>
+                            <li>
+                                وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای
+                            </li>
+                            <li>
+                                وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای
+                            </li>
+                            <li>
+                                وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای
+                            </li>
+                            <li>
+                                وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای
+                            </li>
+                            <li>
+                                وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای
+                            </li>
+                        </ul>
+                    </div>
+                </b-row>
+            </div>
+            <!--            gallery preview recipes-->
+            <div class="gallery-recipes mt-5">
+                <b-row>
+                    <b-col sm="6" md="3">1</b-col>
+                    <b-col sm="6" md="3">2</b-col>
+                    <b-col sm="6" md="3">3</b-col>
+                    <b-col sm="6" md="3">4</b-col>
+                </b-row>
+            </div>
+            <!--recipes introduction-->
+            <div class="recipes-introduction mt-5 mb-5">
+                <b-card>
+                    <div class="recipes-wrapper">
+                        <b-row>
+                            <b-col md="7" lg="7">
+                                <div class="recipes-description-wrapper">
+                                    <span class="recipes-about-title">درباره سرآشپز</span>
+                                    <p class="recipes-name-single">سیدعلی حسینی</p>
+                                    <p class="chef-description">
+                                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                                        برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی
+                                        می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه
+                                    </p>
+                                    <div class="recipes-social-icon ">
+                                        <ul class="list-unstyled list-inline social-list-parent pr-0">
+                                            <li class="list-inline-item facebook">
+                                                <a href="#">
+                                                    <i class="fab fa-facebook-f  middle-align text-white"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item google">
+                                                <a href="#">
+                                                    <i class="fab fa-google middle-align text-white"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item twitter">
+                                                <a href="#">
+                                                    <i class="fab fa-twitter  middle-align text-white"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item instagram ">
+                                                <a href="#">
+                                                    <i class="fab fa-instagram middle-align text-white"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </b-col>
+                            <b-col md="5" lg="5">5</b-col>
+                        </b-row>
+                    </div>
                 </b-card>
             </div>
         </b-container>
@@ -187,6 +311,128 @@
                             border-radius: 50%;
                             padding: 10px 18px;
                             margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .recipes-description {
+        .description {
+            line-height: 50px;
+        }
+    }
+
+    .ingredients-details {
+        background: #fbfbfb;
+        border: 1px solid #fbfbfb;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        padding: 40px;
+        /*ingredients*/
+        .ingredients-item-wrapper {
+            .title {
+                font-weight: bold;
+                font-size: 22px;
+                color: $gray;
+                margin-bottom: 3px;
+            }
+
+            .ingredients-item {
+                li {
+                    line-height: 40px;
+                    position: relative;
+                    color: $gray_Pale;
+
+                    &:before {
+                        content: "\2713";
+                        position: absolute;
+                        width: 5px;
+                        height: 2px;
+                        color: #32ca2f;
+                        right: -20px;
+                    }
+                }
+            }
+        }
+
+        /*instructions*/
+        .instructions-item-wrapper {
+            .instructions-title {
+                font-weight: bold;
+                color: $gray;
+                font-size: 20px;
+            }
+
+            .instructions-item {
+                li {
+                    position: relative;
+                    line-height: 50px;
+                    color: $gray_Pale;
+                    font-size: 15px;
+
+                    &:before {
+                        content: " ";
+                        background: #c0994a;
+                        width: 8px;
+                        height: 8px;
+                        position: absolute;
+                        right: -14px;
+                        top: 20px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+    /*recipes-introduction*/
+    .recipes-introduction {
+        .recipes-wrapper {
+            padding: 30px;
+
+            .recipes-description-wrapper {
+                .recipes-about-title {
+                    color: $gold;
+                }
+
+                .recipes-name-single {
+                    color: $gray;
+                    font-weight: bold;
+
+                }
+
+                .chef-description {
+                    color: $gray_Pale;
+                    font-size: 15px;
+                    line-height: 30px;
+                }
+
+                .recipes-social-icon {
+                    .social-list-parent {
+                        li {
+                            border: 1px solid #ccc;
+                            border-radius: 50%;
+                            padding: 10px 18px;
+                            margin-left: 10px;
+                        }
+
+                        .facebook {
+                            background: #365dce;
+                        }
+
+                        .google {
+                            background: #e52d31;
+                        }
+
+                        .twitter {
+                            background: #36c6e1;
+                        }
+
+                        .instagram {
+                            background: #0f9cd6;
                         }
                     }
                 }
